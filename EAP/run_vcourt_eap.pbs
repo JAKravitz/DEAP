@@ -18,7 +18,7 @@ cd $WDIR
 SET=/data/vcourt_species.txt
 
 # The executable, which is mapped to one line (sets.txt) per task
-EXEC=./EAP/eap_runner.sh
+EXEC=./EAP/vcourtData_eap_runner.sh
 
 # A modern version of gnu parallels. Assume MODULEPATH has /nex/modules/files
 module load /nex/modules/files/parallel/20210722_nex
