@@ -11,11 +11,11 @@
 NCPUS=10
 
 # Working directory 
-WDIR=/nobackup/jakravit/git/dEAP/
+WDIR=/nobackup/jakravit/git/dEAP/EAP/
 cd $WDIR
 
 # The work, one line in the text file is one gnu parallel's task
-SET=/data/vcourt_species.txt
+SET=../data/vcourt_species.txt
 
 # The executable, which is mapped to one line (sets.txt) per task
 EXEC=./EAP/vcourtData_eap_runner.sh
@@ -26,7 +26,7 @@ module load /nex/modules/files/pythongeo/3.9.9_toss_nex
 
 # Get the unique node names from pbs 
 PARA_NDS=$(mktemp /tmp/pbs-node-uniq.XXXXXXXXXX) 
-cat $PBS_NODEFILE | sort | uniq > $PARA_NDS
+cat $PBS_NODEFILE | sort | uniq > $PARA_NDScd 
 
 # This is so you don't have to run "module load" with parallels each invocation. You may want to check all the env's are in this line.
 export PARALLEL="--env PATH --env LD_LIBRARY_PATH --env LOADEDMODULES --env _LMFILES_ --env MODULE_VERSION --env MODULEPATH --env MODULEVERSION_STACK --env MODULESHOME  --env PYTHONPATH"
