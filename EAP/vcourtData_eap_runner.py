@@ -95,8 +95,8 @@ def main():
         result['ci'] = ci
         result['psd'] = psd
         result['PFT1'] = meta.PFT1
-        result['PFT2'] = meta.PFT2
-        result['PFT3'] = meta.PFT3
+        # result['PFT2'] = meta.PFT2
+        # result['PFT3'] = meta.PFT3
         result['lambda'] = l
             
         optics[p][rname] = result
