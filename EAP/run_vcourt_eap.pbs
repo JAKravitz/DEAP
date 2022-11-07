@@ -1,7 +1,7 @@
 #PBS -S /bin/bash
 #PBS -l select=10:ncpus=20:model=bro
 #PBS -l walltime=8:00:00
-#PBS -N eap-parallel
+#PBS -N eap-vcourt-parallel
 #PBS -j oe
 #PBS -q normal
 #PBS -o /nobackup/jakravit/git/dEAP/EAP/eap_vcourt_job.log
@@ -18,7 +18,7 @@ cd $WDIR
 SET=../data/vcourt_species.txt
 
 # The executable, which is mapped to one line (sets.txt) per task
-EXEC=./EAP/vcourtData_eap_runner.sh
+EXEC=./vcourtData_eap_runner.sh
 
 # A modern version of gnu parallels. Assume MODULEPATH has /nex/modules/files
 module load /nex/modules/files/parallel/20210722_nex
