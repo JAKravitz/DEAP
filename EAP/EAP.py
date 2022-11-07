@@ -10,7 +10,7 @@ IOP 2-layer base code
 # sourcefile = open('Dmmex_R14B_4.f','rb')
 # sourcecode = sourcefile.read()
 # f2py.compile(sourcecode, modulename='Dmmex_R14B_4')
-from dmmex import Dmmex_R14B_4
+import Dmmex_R14B_4
 import numpy as np
 from scipy.interpolate import griddata
 from scipy.signal import savgol_filter
