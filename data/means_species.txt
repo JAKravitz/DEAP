@@ -1,0 +1,16 @@
+Bacillariophyceae
+Chlorophyceae
+Coscinodiscophyceae
+Cryptophyceae
+Cyano_blue
+Cyano_red
+Dinophyceae
+Eustigmatophyceae
+Haptophyceae
+Pelagophyceae
+Prasinophyceae
+Prochlorococcus
+Prymnesiophyceae
+Raphidophyceae
+Rhodophyceae
+Synechococcus
