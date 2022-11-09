@@ -10,7 +10,7 @@ Nannochloropsis_sp
 Pavlova_sp
 R_lens
 T_oceanica1
-T_pseudonana
+T_pseudonana1
 P_provasolii
 A_carterae
 D_tertiolecta1
@@ -18,6 +18,6 @@ T_weisflogii
 P_subviridis
 K_rotundatum
 M_pusilla
-Synechococcus
+Cyanobacterium_sp2
 P_calceolata
 C_polylepis

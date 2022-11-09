@@ -1,5 +1,5 @@
 #PBS -S /bin/bash
-#PBS -l select=10:ncpus=20:model=bro
+#PBS -l select=20:ncpus=20:model=bro
 #PBS -l walltime=8:00:00
 #PBS -N eap-vcourt-parallel
 #PBS -j oe
@@ -8,7 +8,7 @@
 
 
 # Should likely match the above ncpus. This param is tasks per node, e.g. 2 selects * 10 NCPUS = 20 parallel's tasks running simultaneously
-NCPUS=10
+NCPUS=20
 
 # Working directory 
 WDIR=/nobackup/jakravit/git/dEAP/EAP/
